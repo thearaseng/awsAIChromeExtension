@@ -41,6 +41,7 @@ var AWSAIServices = (function() {
 		var params = {
 			OutputFormat: 'mp3',
 			Text: txt,
+			Engine: 'neural',
 			VoiceId: voices[lang]
 		};
 		
